@@ -3,7 +3,7 @@
 \moderncvstyle{classic}                       
 \moderncvcolor{red} 
 
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.9]{geometry}
 
 \usepackage[unicode]{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
@@ -13,21 +13,14 @@
 \address{Kyiv, Ukraine}
 \mobile{+380~66~976~1745} 
 \email{evkirpichenko@gmail.com}
+\social[github]{kirpichenko}
 \extrainfo{Skype: jenek.ukr}
 
 \begin{document}
 
 \makecvtitle
 
-\section{Education}
-\cventry
-	{2005 -- 2010}
-	{Master of Applied Mathematics}
-	{Donetsk National University}
-	{Donetsk, Ukraine}{}
-	{Faculty of Mathematics}
-	
-\section{Experience}
+\section{Work Experience}
 \cventry
 	{Jul 2014 -- Present}
 	{iOS Developer}
@@ -42,57 +35,59 @@
 	{Donetsk, Ukraine}{}
 	{Assessment of requirements for software development and time estimation. 
 	\newline Software development.}
-
+	
 \section{Commercial Projects}
-\cvitem {IndyCar 15}{
-	\url{https://itunes.apple.com/us/app/indycar-15/id606905722?mt=8}
-	\newline The Official Verizon IndyCar Series Mobile application. Racing news and media are available in the app even when your device is offline. View leaderboard, car telemetry and other real-time features during live races.}
-	
-\cvitem {VerbalQ}{
-	This application is designed for languages learning. It provides articles in different themes with translations and audio records. Download articles and improve your skills in the chosen language.}
-	
-\cvitem {Brain Power}{
-	\url{https://itunes.apple.com/us/app/brain-power-free-gangnam-style/id600235919?mt=8}
-	\newline Classic game to test your memory. Memorize the sequence played by the game and repeat it. The faster you tap the sequence, the higher is your scores.}
+\cvitem {
+	\href{https://itunes.apple.com/us/app/indycar-15/id606905722?mt=8}{IndyCar 15}}{
+	The Official Verizon IndyCar Series Mobile application. Racing news and media are available in the app even when your device is offline. View leaderboard, car telemetry and other real-time features during live races.}
+		
+\cvitem {
+	\href{https://itunes.apple.com/us/app/brain-power-free-gangnam-style/id600235919?mt=8}{Brain Power}}{
+	Classic game to test your memory. Memorize the sequence played by the game and repeat it. The faster you tap the sequence, the higher is your scores.}
 	 
-\cvitem {Muddler}{
-	\url{https://itunes.apple.com/us/app/muddler/id498512664?mt=8}
-	\newline With Muddler you can discover, upload, rate and share the best drinks in cities around the world.}
+\cvitem {
+	\href{https://itunes.apple.com/us/app/muddler/id498512664?mt=8}{Muddler}}{
+	With Muddler you can discover, upload, rate and share the best drinks in cities around the world.}
+	
+\section{Open-source Projects}
+\cvitem {
+	\href{https://github.com/kirpichenko/EKKeyboardAvoiding}{Keyboard Avoiding}}{
+	It's an universal solution for keyboard avoiding for iOS that allows to view the content placed under the presented keyboard.}
+
+\cvitem{
+	\href{https://github.com/kirpichenko/EKTilesMaker}{Tiles Maker}}{
+	A simple iOS utility that slices provided original image onto tiles. Tiles may be used for displaying large image on different detalization levels.}
 	
 \section{Technical skills}
 \cvitem {Language}{
 	Objective C}
 
-\cvitem {Core}{
-	UIKit, Foundation, GCD, CoreData, CoreGraphics, Quartz, MapKit, AVFoundation}
-
-\cvitem {Frameworks}{
-	AFNetworking, Google Protobuf, MagicalRecord, CocoaPods, Cedar, XCTest, Calabash-iOS}
+\cvitem {Frameworks and Tools}{
+	AFNetworking, Google Protobuf, Bonjour, Sockets, MagicalRecord, CocoaPods, Cedar, XCTest, Calabash-iOS}
 
 \cvitem {Process}{
-	TDD, BDD, XP, Continuous integration}
+	TDD, BDD, XP, Continuous integration, Design patterns}
 
 \cvitem {VCS}{
 	Git, Mercurial}
 
 \cvitem {CRM}{
 	Jira, Redmine}
-	
-\cvitem {Design}{
-	OOP, Design patterns}
-	
+		
 \section{Languages}
 \cvitem {Native}{
 	Russian, Ukrainian}
 
 \cvitem {Advanced}{
 	English}
-	
-\section{Public Profiles}
-\cvitem {Github}{
-	\url{https://github.com/kirpichenko}}
-	
-\cvitem {LinkedIn}{
-	\url{https://ua.linkedin.com/in/kirpichenko}}
+
+			
+\section{Education}
+\cventry
+	{2005 -- 2010}
+	{Master of Applied Mathematics}
+	{Donetsk National University}
+	{Donetsk, Ukraine}{}
+	{Faculty of Mathematics}
 
 \end{document}

@@ -2,4 +2,5 @@ syntax:glob
 *.aux
 *.log
 *.out
+*.gz
 .DS*
